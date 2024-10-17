@@ -1,5 +1,5 @@
 # Analyzing the Influence of Training Samples on Explanations
-This repository contains the implementation of the experiments as proposed in the paper "Analyzing the Influence of Training Samples on Explanations" by André Artelt and Barbara Hammer.
+This repository contains the implementation of the experiments as proposed in the paper [Analyzing the Influence of Training Samples on Explanations](paper.pdf) by André Artelt and Barbara Hammer.
 
 ## Abstract
 

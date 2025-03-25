@@ -1,11 +1,12 @@
 # Analyzing the Influence of Training Samples on Explanations
-This repository contains the implementation of the experiments as proposed in the paper [Analyzing the Influence of Training Samples on Explanations](paper.pdf) by André Artelt and Barbara Hammer.
+This repository contains the implementation of the experiments as proposed in the paper [Towards Understanding the Influence of Training Samples on Explanations](paper.pdf) by André Artelt and Barbara Hammer.
 
 ## Abstract
 
-EXplainable AI (XAI) constitutes a popular method to analyze the reasoning of AI systems by explaining their decision-making, e.g. providing a counterfactual explanation of how to achieve recourse. However, in cases such as unexpected explanations, the user might be interested in learning about the cause of this explanation -- e.g. properties of the utilized training data that are responsible for the observed explanation.
-    
-Under the umbrella of data valuation, first approaches have been proposed that estimate the influence of data samples on a given model. In this work, we take a slightly different stance, as we are interested in the influence of single training samples on a model explanation rather than the model itself. Hence, we propose the novel problem of identifying training data samples that have a high influence on a given explanation (or related quantity) and investigate the particular case of the cost of computational recourse. For this, we propose an algorithm that identifies such influential training samples.
+Explainable AI (XAI) is widely used to analyze AI systems' decision-making, such as providing counterfactual explanations for recourse. When unexpected explanations occur, users may want to understand the training data properties shaping them.
+Under the umbrella of data valuation, first approaches have been proposed that estimate the influence of data samples on a given model. This process not only helps determine the data's value, 
+but also offers insights into how individual, potentially noisy, or misleading examples affect a model, which is crucial for interpretable AI. In this work, we apply the concept of data valuation to the significant area of model evaluations, focusing on how individual training samples impact a model's internal reasoning rather than the predictive performance only.
+Hence, we introduce the novel problem of identifying training samples shaping a given explanation or related quantity, and investigate the particular case of the cost of computational recourse. We propose an algorithm to identify such influential samples and conduct extensive empirical evaluations in two case studies.
 
 ## Experiments
 
